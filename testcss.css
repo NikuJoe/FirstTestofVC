@@ -2,3 +2,13 @@ h1{
   font-family: Raleway, serif;
   font-size: 30px;
 }
+
+p{
+  color:red;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+}
+
+h2{
+  font-family: "Comic Sans MS", sans-serif;
+}
