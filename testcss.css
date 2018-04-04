@@ -1,14 +1,37 @@
-h1{
+//*h1 {
   font-family: Raleway, serif;
   font-size: 30px;
 }
 
-p{
+p {
   color:red;
   font-family: "Times New Roman", serif;
   text-align: center;
 }
 
-h2{
+h2 {
   font-family: "Comic Sans MS", sans-serif;
+}
+*//
+.parallax {
+  perspective:1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax_layer-base {
+  transform: translatez(0);
+}
+
+.parallax_layer-back {
+  transform: translatez(-1px);
 }
